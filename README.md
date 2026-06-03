@@ -2,61 +2,67 @@
 
 ## Descripción
 
-Proyecto del taller de Desarrollo de Software II. Esta calculadora en PHP incluye:
+Este proyecto es una calculadora básica en PHP desarrollada para el taller de Desarrollo de Software II. Incluye operaciones aritméticas fundamentales y pruebas unitarias con PHPUnit.
 
-- `src/Calculadora.php`: operaciones básicas de suma, resta, multiplicación y división.
-- `tests/CalculadoraTest.php`: pruebas unitarias con PHPUnit.
-- `.github/workflows/php-ci.yml`: pipeline de GitHub Actions para ejecutar pruebas automáticamente.
+## Características
 
-## Getting Started
+- Suma, resta, multiplicación y división.
+- Pruebas unitarias en `tests/CalculadoraTest.php`.
+- Integración con GitHub Actions para ejecutar pruebas automáticamente.
 
-### Requisitos
+## Estructura del proyecto
 
-- PHP 8.2
+- `src/Calculadora.php` — lógica de la calculadora.
+- `tests/CalculadoraTest.php` — casos de prueba para validar las operaciones.
+- `composer.json` — configuración de autoload y dependencias.
+- `.github/workflows/php-ci.yml` — pipeline de CI para ejecutar PHPUnit.
+
+## Requisitos
+
+- PHP 8.2 o superior
 - Composer
 
-### Instalación
+## Instalación
 
-Desde la raíz del proyecto:
+Desde la raíz del proyecto, ejecuta:
 
 ```sh
 composer install
 ```
 
-### Ejecutar pruebas
+## Ejecutar pruebas
 
-```shn
+```sh
 vendor/bin/phpunit tests
 ```
 
 ## GitHub Actions
 
-El workflow se encuentra en `.github/workflows/php-ci.yml` y realiza:
+Este repositorio está preparado para ejecutar pruebas automáticas en cada push y pull request. El workflow ubicado en `.github/workflows/php-ci.yml` realiza:
 
-1. checkout del repositorio
-2. instalación de PHP 8.2 con `shivammathur/setup-php`
-3. instalación de dependencias con Composer
-4. ejecución de `./vendor/bin/phpunit tests`
-
+1. Checkout del código.
+2. Instalación de PHP 8.2.
+3. Instalación de dependencias con Composer.
+4. Ejecución de `vendor/bin/phpunit tests`.
 
 ## Badge de estado
 
 ![PHP CI](https://github.com/<usuario>/<repo>/actions/workflows/php-ci.yml/badge.svg)
 
-## Repositorio público
+> Reemplaza `<usuario>` y `<repo>` por el usuario y repositorio reales para que el badge funcione.
 
-https://github.com/<usuario>/<repo>
+## Uso
 
-## Entrega
-
-- Agrega al README el badge de GitHub Actions funcionando.
-- Agrega al README la URL pública de tu repositorio.
-- Agrega los nombres completos de los integrantes.
-- Asegúrate de tener al menos 3-4 commits con mensajes claros.
+Puedes usar la calculadora directamente importando la clase `App\Calculadora` desde `src/Calculadora.php` y llamando a sus métodos para cada operación.
 
 ## Integrantes
 
 - Nombre completo 1
 - Nombre completo 2
 
-> Reemplaza `<usuario>` y `<repo>` con tu cuenta y repositorio reales, y agrega tus nombres completos.
+## Notas de entrega
+
+- Agrega el badge de GitHub Actions verdadero.
+- Coloca la URL pública de tu repositorio.
+- Incluye los nombres completos de los integrantes.
+- Procura tener al menos 3-4 commits con mensajes claros.
