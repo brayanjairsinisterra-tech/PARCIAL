@@ -49,7 +49,7 @@ Este repositorio está preparado para ejecutar pruebas automáticas en cada push
 
 ![PHP CI](https://github.com/<usuario>/<repo>/actions/workflows/php-ci.yml/badge.svg)
 
-> Reemplaza `<usuario>` y `<repo>` por el usuario y repositorio reales para que el badge funcione.
+> Reemplaza `<brayanjairsinisterra-tech>` y `<https://github.com/brayanjairsinisterra-tech/parcial2.git>` por el usuario y repositorio reales para que el badge funcione.
 
 ## Uso
 
@@ -57,8 +57,8 @@ Puedes usar la calculadora directamente importando la clase `App\Calculadora` de
 
 ## Integrantes
 
-- Nombre completo 1
-- Nombre completo 2
+- BRAYAN JAIR SINISTERRA
+
 
 ## Notas de entrega
 
