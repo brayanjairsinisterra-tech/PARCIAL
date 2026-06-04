@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'univalle/calculadora-ci',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'd53e057311936db84ddf7d9183c8863c6056aef5',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -245,9 +245,9 @@
             'dev_requirement' => true,
         ),
         'univalle/calculadora-ci' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd53e057311936db84ddf7d9183c8863c6056aef5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
