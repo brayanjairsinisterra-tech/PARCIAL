@@ -42,7 +42,7 @@ Este repositorio está preparado para ejecutar pruebas automáticas en cada push
 
 1. Checkout del código.
 2. Instalación de PHP 8.2.
-3. Instalación de dependencias con Composer.
+3. Instalación de dependencias de y con Composer.
 4. Ejecución de `vendor/bin/phpunit tests`.
 
 ## Badge de estado
