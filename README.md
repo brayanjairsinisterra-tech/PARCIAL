@@ -47,9 +47,9 @@ Este repositorio está preparado para ejecutar pruebas automáticas en cada push
 
 ## Badge de estado
 
-![PHP CI](https://github.com/<usuario>/<repo>/actions/workflows/php-ci.yml/badge.svg)
+![PHP CI](https://github.com/brayanjairsinisterra-tech/PARCIAL/actions/workflows/php-ci.yml/badge.svg)
 
-> Reemplaza `<brayanjairsinisterra-tech>` y `<https://github.com/brayanjairsinisterra-tech/parcial2.git>` por el usuario y repositorio reales para que el badge funcione.
+`<brayanjairsinisterra-tech>` y `<com/https://github.com/brayanjairsinisterra-tech/PARCIAL>` por el usuario y repositorio reales para que el badge funcione.
 
 ## Uso
 
